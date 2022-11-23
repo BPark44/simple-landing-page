@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.hero {
+  background-color: rgb(147, 102, 231);
+  background-image: url("../images/bg-desktop.svg");
+  height: 100vh;
+}
+.hero .nav {
+  padding: 1rem 1rem;
+}
+.hero .content-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+  height: 70%;
+  margin: 0 17%;
+}
+.hero .content-grid .content-grid-left {
+  padding-top: 9rem;
+}
+.hero .content-grid .content-grid-right {
+  color: white;
+}
+.hero .content-grid .content-grid-right h1 {
+  font-size: 2.2rem;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+.hero .content-grid .content-grid-right p {
+  font-weight: 300;
+}
+.hero .content-grid .content-grid-right .register-btn {
+  background-color: rgb(255, 255, 255);
+  border: none;
+  width: 200px;
+  height: 50px;
+  border-radius: 50px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
+  color: rgb(147, 102, 231);
+  font-size: 1.1rem;
+}
+.hero .content-grid .content-grid-right .register-btn:hover {
+  background-color: rgb(223, 116, 233);
+  cursor: pointer;
+  color: white;
+}/*# sourceMappingURL=styles.css.map */
