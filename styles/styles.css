@@ -17,10 +17,11 @@
   gap: 3rem;
   align-items: center;
   height: 70%;
-  margin: 0 17%;
+  margin: 0 10%;
+  padding-top: 5%;
 }
-.hero .content-grid .content-grid-left {
-  padding-top: 9rem;
+.hero .content-grid .content-grid-left img {
+  width: 100%;
 }
 .hero .content-grid .content-grid-right {
   color: white;
@@ -47,4 +48,19 @@
   background-color: rgb(223, 116, 233);
   cursor: pointer;
   color: white;
+}
+
+@media screen and (max-width: 1200px) {
+  .hero {
+    background-color: rgb(147, 102, 231);
+    background-image: url("../images/bg-mobile.svg");
+    background-size: cover;
+    height: 200vh;
+  }
+  .hero .content-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0;
+    height: 50%;
+  }
 }/*# sourceMappingURL=styles.css.map */

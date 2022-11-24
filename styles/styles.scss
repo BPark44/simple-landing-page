@@ -16,9 +16,12 @@
     gap: 3rem;
     align-items: center;
     height: 70%;
-    margin: 0 17%;
+    margin: 0 10%;
+    padding-top: 5%;
     .content-grid-left {
-      padding-top: 9rem;
+      img {
+        width: 100%;
+      }
     }
     .content-grid-right {
       color: white;
@@ -44,6 +47,23 @@
           cursor: pointer;
           color: white;
         }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .hero {
+    background-color: rgb(147, 102, 231);
+    background-image: url("../images/bg-mobile.svg");
+    background-size: cover;
+    height: 200vh;
+    .content-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 0;
+      height: 50%;
+      .content-grid-left {
       }
     }
   }
